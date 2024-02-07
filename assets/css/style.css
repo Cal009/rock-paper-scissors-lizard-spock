@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    max-width: 100%;
 }
 
 body{
@@ -33,7 +32,7 @@ body{
     align-items: center;
     justify-content: center;
 }
-.decision p {
+.decision h3 {
     text-align: center;
     margin: 20px 0;
 }
@@ -52,4 +51,33 @@ body{
     font-size: 1rem;
     padding: 1px 7px;
     border-radius: 5px;
+}
+
+.player_choice img {
+    width: 7rem;
+}
+
+.computer_choice img {
+    width: 7rem;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .score_area {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .buttons {
+        padding: 5px;
+    }
+
+    .buttons button {
+        font-size: 0.8rem;
+        padding: 3px 7px;
+    }
 }
