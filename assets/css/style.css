@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
-.result_images {
-    width: 100px;
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: bisque;
+}
+
+.container {
+    padding: 2rem 7rem;
+    border-radius: 14px;
+    background: whitesmoke;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.score_area {
+    display:flex;
+    column-gap: 7rem;
 }
