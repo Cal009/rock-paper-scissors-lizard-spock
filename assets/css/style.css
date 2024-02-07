@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
@@ -24,4 +25,31 @@ body{
 .score_area {
     display:flex;
     column-gap: 7rem;
+}
+.score_area
+
+.game_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decision p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: bisque;
+}
+
+.buttons button {
+    border: none;
+    font-size: 1rem;
+    padding: 1px 7px;
+    border-radius: 5px;
 }

@@ -9,12 +9,29 @@
 </head>
 <body>
     <section class="container">
+        <section class="game_area">
+            <div class="decision">
+                <p>Make your Decision:</p>
+                <div class="buttons">
+                    <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+                    <button aria-label="Paper" data-choice="1" class="control">Paper</button>
+                    <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
+                    <button aria-label="Lizard" data-choice="3" class="control">Lizard</button>
+                    <button aria-label="Spock" data-choice="4" class="control">Spock</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div player choice>
+                <img src="" alt="">
+            </div>
+        </section>
         <div class="score_area">
                 <span class="user_score">
-                    <h2>Your score:</h2>
+                    <h2>Your score: <span>0</span></h2>
                 </span>
                 <span class="cpu_score">
-                    <h2>CPU score:</h2><span>0</span>
+                    <h2>CPU score: <span>0</span></h2>
                 </span>
         </div>
     </section>
