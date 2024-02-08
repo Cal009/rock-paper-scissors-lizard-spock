@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 body{
@@ -49,6 +50,7 @@ body{
     background: #a3e6df;
     margin-bottom: 1rem;
     column-gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .buttons button {
@@ -75,6 +77,7 @@ body{
     align-items: center;
     justify-content: center;
     column-gap: 3rem;
+    flex-wrap: wrap;
 }
 .computer_choice h3, .player_choice h3 {
     display: flex;
