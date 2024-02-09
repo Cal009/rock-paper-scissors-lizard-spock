@@ -24,10 +24,12 @@ body{
 }
 
 .score_area {
-    display:flex;
+    display: flex;
     column-gap: 7rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .game_area {
@@ -96,6 +98,14 @@ body{
 .user_score h2{
     padding-left: 3rem;
     font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: small;
+    padding-top: 1rem;
 }
 
 @media (max-width: 767px) {
