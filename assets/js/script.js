@@ -5,8 +5,8 @@ const playerChoiceDisplay = document.getElementsByClassName("player_choice")[0]
 const computerChoiceDisplay = document.getElementsByClassName("computer_choice")[0]
 const playerImage = document.getElementById("player_image")
 const computerImage = document.getElementById("computer_image")
-const playerScoreDisplay = document.getElementsByClassName("user_score")[0]
-const computerScoreDisplay = document.getElementsByClassName("cpu_score")[0]
+const playerScoreDisplay = document.getElementById("user_score")
+const computerScoreDisplay = document.getElementById("cpu_score")
 const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
 let userScore = 0;
 let computerScore = 0;
@@ -37,3 +37,29 @@ function playGame(playerChoice) {
 }
 
 //Function to determine the winner
+function checkWinner(computerChoice, playerChoice) {
+    if (computerChoice === playerChoice) {
+        return "tie";
+    } else if (
+        (computerChoice === "Rock" && (playerChoice === "Scissors" || playerChoice === "Lizard")) ||
+        (computerChoice === "Paper" && (playerChoice === "Rock" || playerChoice === "Spock")) ||
+        (computerChoice === "Scissors" && (playerChoice === "Paper" || playerChoice === "Lizard")) ||
+        (computerChoice === "Lizard" && (playerChoice === "Spock" || playerChoice === "Paper")) ||
+        (computerChoice === "Spock" && (playerChoice === "Rock" || playerChoice === "Scissors"))
+    ) {
+        return "computer";
+    } else {
+        return "player";
+    }
+}
+
+// Function to update scores and display winner
+function updateScores(result) {
+    if (result === "player") {
+        userScore++;
+    } else if (result === "computer") {
+        computerScore++;
+    }
+    playerScoreDisplay.textContent = userScore;
+    computerScoreDisplay.textContent = computerScore;
+}
