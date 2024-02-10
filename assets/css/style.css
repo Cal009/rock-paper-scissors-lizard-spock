@@ -107,6 +107,11 @@ footer {
     font-size: small;
     padding-top: 1rem;
 }
+ul {
+    display: flex;
+    column-gap: 1.2rem;
+    flex-wrap: wrap;
+}
 
 @media (max-width: 767px) {
     .container {
