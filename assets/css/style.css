@@ -39,15 +39,14 @@ body{
 }
 .decision h3 {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
     font-size: xxx-large;
 }
 
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 20px;
     border-radius: 10px;
     background: #a3e6df;
@@ -83,6 +82,13 @@ body{
     column-gap: 3rem;
     flex-wrap: wrap;
 }
+
+.message {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+
 .computer_choice h3, .player_choice h3 {
     display: flex;
     flex-direction: row;
@@ -108,9 +114,10 @@ footer {
     padding-top: 1rem;
 }
 ul {
-    display: flex;
     column-gap: 1.2rem;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {
