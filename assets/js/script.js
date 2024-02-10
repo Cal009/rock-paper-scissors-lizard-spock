@@ -8,6 +8,7 @@ const computerImage = document.getElementById("computer_image")
 const playerScoreDisplay = document.getElementById("user_score")
 const computerScoreDisplay = document.getElementById("cpu_score")
 const choices = ['Rock', 'Paper', 'Scissors', 'Lizard', 'Spock'];
+const message = document.getElementsByClassName("message");
 let userScore = 0;
 let computerScore = 0;
 
@@ -55,11 +56,18 @@ function checkWinner(computerChoice, playerChoice) {
 
 // Function to update scores and display winner
 function updateScores(result) {
+    let msg = "";
     if (result === "player") {
         userScore++;
+        msg = "Well done... You Won!";
     } else if (result === "computer") {
         computerScore++;
+        msg = "Unlucky... The computer Won."
+    }
+    else {
+        msg = "Its a tie.";
     }
     playerScoreDisplay.textContent = userScore;
     computerScoreDisplay.textContent = computerScore;
+    message[0].textContent = msg;
 }
