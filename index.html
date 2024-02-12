@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Lizard Spock</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon_io2/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon_io2/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon_io2/favicon-16x16.png">
@@ -16,6 +17,7 @@
         <section class="game_area">
             <div class="decision">
                 <h3>Make your Decision:</h3>
+                <!-- Buttons for Choices -->
                 <div class="buttons">
                     <button aria-label="Rock" data-choice="0" class="control">Rock</button>
                     <button aria-label="Paper" data-choice="1" class="control">Paper</button>
@@ -25,6 +27,7 @@
                 </div>
             </div>
         </section>
+        <!-- Choices -->
         <section class="choices">
             <div class="player_choice">
                 <h3>You Chose:<img id="player_image" src="assets/images/RPSLS.png" alt="Rock, Paper, Scissors, Lizard, Spock"></h3>
@@ -34,6 +37,7 @@
             </div>
         </section>
         <div class ="message"></div>
+        <!-- Scores -->
         <div class="score_area">
             <div class="user_score_area">
                 <h2>Your score: <span id="user_score">0</span></h2>
@@ -43,6 +47,7 @@
             </div>
         </div>
         <footer>
+            <!-- Rules -->
             <h3>Rules of the Game:</h3>
             <ul>
                 <li>Rock beats Scissors & Lizard</li>
@@ -53,9 +58,6 @@
             </ul>
         </footer>
     </section>
-
-
-
     <script src="assets/js/script.js"></script>
 </body>
 </html>

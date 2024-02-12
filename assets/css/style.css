@@ -123,6 +123,8 @@ ul {
     justify-content: center;
 }
 
+/* Media query to make the content reponsive */
+
 @media (max-width: 767px) {
     .container {
         padding: 1rem;
