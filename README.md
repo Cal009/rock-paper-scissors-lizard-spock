@@ -29,3 +29,28 @@ Each feature implemented into my website was executed with the user's goals and 
 - Finally the choice to have a blue background as well as the centered white box was to allow full focus on the game. The light blue color matches the light blue shown in the placeholder image for the choices.
 
 ![Game Area](assets/images/ReadMe/Game-area.png)
+
+## Testing
+
+In order to make sure my website was running correctly and everything was error free I used multiple resources to check. These included:
+
+- __W3C Validator__
+
+![W3C Validator](assets/images/ReadMe/W3C.png)
+
+- Upon checking this validator I had no issues with my code.
+
+- __Jigsaw Validator__
+
+![Jigsaw Validator](assets/images/ReadMe/Jigsaw.png)
+
+- When checking the Jigsaw Validator everything came back with no errors.
+
+- __JSHint Validator__
+
+- When I checked the JSHint Validator I ran into an issue with multiple error codes all including the same code. I decided to run the code through the AI tool Chat GPT and it came back that it was a minor error with the version of JSHint. After putting in a comment to define the specific version of JSHint it came back with a single error code however this was only a warning and so was not changed. This can be shown below:
+
+![JSHint Validator](assets/images/ReadMe/JSHint-2.png)
+
+![JSHint Validator](assets/images/ReadMe/JSHint.png)
+
