@@ -57,11 +57,17 @@ In order to make sure my website was running correctly and everything was error 
 ## Design
 
 My design focus for the website was based around the placeholder image I had found on Google. I chose to use the placeholder as it was a clear image showing the rules of the game. My main focus was to have the game area in a box centered in he screen. I decided to add a shadow to the white box to give it a sense of depth and character. The light blue background was then used as it was a match with the light blue on the placeholder image. This then allows the information to stand out and not feel washed out next to the background. Then Images I used to reference each choice were kept cartoon like to make it more friendly and fun. These images can be found below:
+
 ![Rock](assets/images/Rock.png)
+
 ![Paper](assets/images/Paper.png)
+
 ![Scissors](assets/images/Scissors.png)
+
 ![Lizard](assets/images/Lizard.png)
+
 ![Spock](assets/images/Spock.png)
+
 ![Design](assets/images/ReadMe/Game-area.png)
 
 ## Accessibility and Performance
