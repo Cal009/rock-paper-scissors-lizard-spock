@@ -4,4 +4,4 @@ Rock Paper Scissors is a well known game played around the world due to its simp
 
 You can access my website here [link] (https://cal009.github.io/rock-paper-scissors-lizard-spock/)
 
-![Responsive Mockup] (document/assets/images/ReadMe/Responsive.png)
+![Responsive Mockup] (assets/images/ReadMe/Responsive.png)
