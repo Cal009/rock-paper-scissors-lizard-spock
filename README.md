@@ -54,3 +54,49 @@ In order to make sure my website was running correctly and everything was error 
 
 ![JSHint Validator](assets/images/ReadMe/JSHint.png)
 
+## Design
+
+My design focus for the website was based around the placeholder image I had found on Google. I chose to use the placeholder as it was a clear image showing the rules of the game. My main focus was to have the game area in a box centered in he screen. I decided to add a shadow to the white box to give it a sense of depth and character. The light blue background was then used as it was a match with the light blue on the placeholder image. This then allows the information to stand out and not feel washed out next to the background. Then Images I used to reference each choice were kept cartoon like to make it more friendly and fun. These images can be found below:
+![Rock](assets/images/Rock.png)
+![Paper](assets/images/Paper.png)
+![Scissors](assets/images/Scissors.png)
+![Lizard](assets/images/Lizard.png)
+![Spock](assets/images/Spock.png)
+![Design](assets/images/ReadMe/Game-area.png)
+
+## Accessibility and Performance
+
+I tested my Website using Lighthouse and the results can be seen below:
+
+![Lighthouse](assets/images/ReadMe/Lighthouse.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/Cal009/rock-paper-scissors-lizard-spock), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+## Credits
+
+During the development of my website I used a variety of sources to help. I will link them below along with how they assisted me:
+
+- __ChatGPT__ 
+
+- Chat GPT was used a couple of times in the development. It helped me when I had a error or a part of my code wasn't working the way I expected it to. By using Chat GPT it then showed me how to fix the error i had and then explained the reason it didn't work. This was beneficial for me as I was able to learn and avoid making the mistakes again.
+
+- __Favicon__
+
+- I used this website [Favicon](https://favicon.io/favicon-generator/) as a way of creating my own Favicon. This allowed me to make it more personal and professional.
+
+- __Google Fonts__
+
+- I used this website [Google Fonts](https://fonts.google.com/selection/embed) to change the main font of my website. I wanted the font to look slightly more rounded to give a bubbly look without taking away the ease of reading it. 
+
+- __Code Institute__
+
+- I used part of the code from the code institute Porject 2 example to ensure I had created the references to the DOM. I was finding it difficult to begin with knowing what to reference and so this project gave me a little boost to start off.
+
+- __Images__
+
+- All my images were sourced from Google images. 
