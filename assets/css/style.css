@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Asteriks to set a default styling to the entire HTML page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #a3e6df;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 4rem 7rem;
+    border-radius: 14px;
+    background: whitesmoke;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: x-large;
+}
+
+.score_area {
+    display: flex;
+    column-gap: 7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decision h3 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: xxx-large;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #a3e6df;
+    margin-bottom: 1rem;
+    column-gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.buttons button {
+    border: none;
+    font-size: 1.1rem;
+    padding: 0.3rem 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.player_choice img {
+    width: 7rem;
+    padding: 1rem;
+}
+
+.computer_choice img {
+    width: 7rem;
+    padding: 1rem;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+}
+
+.computer_choice h3, .player_choice h3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: x-large;
+}
+
+.cpu_score h2 {
+    padding-left: 2rem;
+    font-size: xx-large;
+}
+
+.user_score h2{
+    padding-left: 3rem;
+    font-size: xx-large;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: small;
+    padding-top: 1rem;
+}
+ul {
+    column-gap: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Media query to make the content reponsive */
+
+@media (max-width: 767px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .score_area {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .buttons {
+        padding: 5px;
+    }
+
+    .buttons button {
+        font-size: 0.8rem;
+        padding: 3px 7px;
+    }
+}
